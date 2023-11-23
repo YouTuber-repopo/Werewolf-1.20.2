@@ -1,0 +1,11 @@
+{
+    "criteria": {
+       "": {
+            "trigger": "",
+           "conditions": {}
+       }
+   },
+   "rewards": {
+       "function": ""
+   }
+}
