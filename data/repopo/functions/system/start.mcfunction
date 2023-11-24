@@ -4,9 +4,9 @@
 
 # チーム分け
     team join Guest @a
-    team join Wolf @a[team=Guest, limit=1]
-    team join Villager @a[team=Guest, limit=3]
-    team join Mad @a[team=Guest, limit=1]
+    team join Wolf @r[team=Guest, limit=1]
+    team join Villager @r[team=Guest, limit=3]
+    team join Mad @r[team=Guest, limit=1]
 
 
 # プレイ中にする
