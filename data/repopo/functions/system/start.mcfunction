@@ -9,6 +9,10 @@
     team join Mad @a[team=Guest, limit=1]
 
 
+# プレイ中にする
+    data merge storage system {IsPlaying: true}
+
+
 # 演出
     execute as @a[team=Wolf] run title @s title {"text": "人狼です", "color": "dark_red", "bold": true}
     execute as @a[team=Wolf] at @s run playsound entity.ender_dragon.ambient master @s

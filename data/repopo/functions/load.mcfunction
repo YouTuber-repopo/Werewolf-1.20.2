@@ -6,6 +6,8 @@
 #define team Mad 狂人チーム
 #define team Guest 観客チーム
 
+#define storage system システムに関するもの
+
 
 # チーム設定
     function repopo:system/team_setting_template {team: Wolf}
@@ -13,6 +15,9 @@
     function repopo:system/team_setting_template {team: Mad}
     function repopo:system/team_setting_template {team: Guest}
 
+
+# 設定
+    data merge storage system {IsPlaying: false}
 
 
 # りろーでっど！
