@@ -7,6 +7,7 @@
 #define team Guest 観客チーム
 
 #define storage system システムに関するもの
+#define objective Death 死亡スコアボード
 
 
 # チーム設定
@@ -14,6 +15,10 @@
     function repopo:system/team_setting_template {team: Villager}
     function repopo:system/team_setting_template {team: Mad}
     function repopo:system/team_setting_template {team: Guest}
+
+
+# スコアボード定義
+    scoreboard objectives add Death deathCount
 
 
 # 設定

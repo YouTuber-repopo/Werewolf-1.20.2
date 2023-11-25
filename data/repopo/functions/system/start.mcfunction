@@ -1,12 +1,22 @@
 #> repopo:system/start
 # スタート処理
 
+#define tag Guest 観客タグ
+#define tag Wolf 人狼タグ
+#define tag Villager 村人タグ
+#define tag Mad 狂人タグ
+
 
 # チーム分け
     team join Guest @a
     team join Wolf @r[team=Guest, limit=1]
     team join Villager @r[team=Guest, limit=3]
     team join Mad @r[team=Guest, limit=1]
+
+    tag @a[team=Guest] add Guest
+    tag @a[team=Wolf] add Wolf
+    tag @a[team=Villager] add Villager
+    tag @a[team=Mad] add Mad
 
 
 # プレイ中にする
