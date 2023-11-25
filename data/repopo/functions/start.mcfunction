@@ -7,4 +7,4 @@
 
 
 # 3秒後に開始
-    schedule function repopo:system/start 3s
+    schedule function repopo:start/_ 3s

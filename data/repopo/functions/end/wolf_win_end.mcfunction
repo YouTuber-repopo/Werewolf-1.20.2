@@ -1,4 +1,4 @@
-#> repopo:system/wolf_win_end
+#> repopo:end/wolf_win_end
 # 人狼勝利ゲームオーバー処理
 
 

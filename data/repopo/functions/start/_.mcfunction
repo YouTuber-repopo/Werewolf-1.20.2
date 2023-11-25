@@ -1,4 +1,4 @@
-#> repopo:system/start
+#> repopo:start/_
 # スタート処理
 
 #define tag Guest 観客タグ

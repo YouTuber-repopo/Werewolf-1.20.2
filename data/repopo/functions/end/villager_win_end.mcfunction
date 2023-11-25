@@ -1,4 +1,4 @@
-#> repopo:system/villager_win_end
+#> repopo:end/villager_win_end
 # 村人勝利ゲームオーバー処理
 
 
