@@ -28,9 +28,6 @@
     tag @a remove Mad
     tag @a remove Guest
 
-    gamemode adventure @a
-    effect clear @a
-    clear @a
 
-    effect give @a instant_health 10 255 true
-    effect give @a saturation 10 255 true
+# 数秒後完全終了
+    schedule function repopo:end/_ 5s
