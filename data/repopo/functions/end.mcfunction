@@ -1,6 +1,7 @@
 #> repopo:end
 # ゲームオーバー処理
 
+
 # プレイ終了に設定する
     data merge storage system {IsPlaying: false}
 
