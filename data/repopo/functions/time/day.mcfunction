@@ -16,6 +16,11 @@
     bossbar set time name [{"score": {"objective": "Time", "name": "#Day"}}, "日目 昼"]
 
 
+# スケルトン消滅
+    tp @e[type=skeleton, tag=Enemy] ~ -256 ~
+    kill @e[type=skeleton, tag=Enemy]
+
+
 # 演出
     title @a title {"text": "DAY TIME", "bold": true, "color": "yellow"}
     title @a subtitle "会話が解禁されます"
