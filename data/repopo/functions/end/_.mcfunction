@@ -10,6 +10,9 @@
     effect give @a instant_health 10 255 true
     effect give @a saturation 10 255 true
 
+    bossbar set time visible false
+    time set noon
+
 
 # 開始位置にTP
     tp @a @e[tag=StartPositionMarker, limit=1]

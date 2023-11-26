@@ -1,0 +1,9 @@
+{
+    "condition": "value_check",
+    "value": {
+        "type": "score",
+        "score": "Time",
+        "target": { "type": "fixed", "name": "#DayTime" }
+    },
+    "range": { "max": 0, "min": 0 }
+}

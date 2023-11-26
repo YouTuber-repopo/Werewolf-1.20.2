@@ -2,6 +2,16 @@
 # プレイ中tick処理
 
 
+# 時間
+    scoreboard players remove #TotalTime Time 1
+    scoreboard players remove #DayTime Time 1
+
+    execute store result bossbar time value run scoreboard players get #DayTime Time
+
+    execute if predicate repopo:time/change_to_daytime run function repopo:time/day
+    execute if predicate repopo:time/change_to_night run function repopo:time/night
+
+
 # 役職表示
     execute as @a[team=Wolf] run function repopo:system/actionbar_template {Team: "人狼", TeamColor: "dark_red"}
     execute as @a[team=Villager] run function repopo:system/actionbar_template {Team: "村人", TeamColor: "green"}

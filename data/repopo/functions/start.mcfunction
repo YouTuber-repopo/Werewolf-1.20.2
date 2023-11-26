@@ -26,6 +26,16 @@
 
     scoreboard players reset * Death
 
+    execute store result score #DayTime Time run data get storage time_setting DayTime 1
+    execute store result score #TotalTime Time run data get storage time_setting DayTime 2
+    scoreboard players set #Day Time 1
+
+    execute store result bossbar time value run data get storage time_setting DayTime 1
+    
+    bossbar set time color yellow
+    bossbar set time name "1日目 昼"
+    bossbar set time visible true
+
 
 # 開始位置設定
     summon marker ~ ~ ~ {Tags: ["StartPositionMarker"]}

@@ -1,0 +1,10 @@
+{
+    "condition": "all_of",
+    "terms": [
+        { "condition": "reference", "name": "repopo:time/change_time" },
+        {
+            "condition": "inverted",
+            "term": { "condition": "reference", "name": "repopo:time/change_to_daytime" }
+        }
+    ]
+}
