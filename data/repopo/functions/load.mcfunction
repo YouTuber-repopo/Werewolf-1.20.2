@@ -14,6 +14,7 @@
 
 #define score_holder #TotalTime 時間
 #define score_holder #DayTime 昼夜の時間
+#define score_holder #DayTimeBorder 昼夜の境目
 #define score_holder #Day 日付
 
 #define bossbar time 時間のボスバー
@@ -37,6 +38,7 @@
 
     execute store result score #TotalTime Time run data get storage time_setting DayTime 2
     execute store result score #DayTime Time run data get storage time_setting DayTime 1
+    execute store result score #DayTimeBorder Time run data get storage time_setting DayTime 1
     scoreboard players set #Day Time 0
 
 

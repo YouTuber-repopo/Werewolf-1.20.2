@@ -2,14 +2,6 @@
     "condition": "all_of",
     "terms": [
         { "condition": "reference", "name": "repopo:time/change_time" },
-        {
-            "condition": "value_check",
-            "value": {
-                "type": "score",
-                "score": "Time",
-                "target": { "type": "fixed", "name": "#TotalTime" }
-            },
-            "range": { "max": 0, "min": 0 }
-        }
+        { "condition": "reference", "name": "repopo:time/night" }
     ]
 }

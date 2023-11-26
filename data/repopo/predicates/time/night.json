@@ -1,0 +1,4 @@
+{
+    "condition": "inverted",
+    "term": { "condition": "reference", "name": "repopo:time/daytime" }
+}

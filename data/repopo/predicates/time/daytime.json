@@ -1,0 +1,15 @@
+{
+    "condition": "value_check",
+    "value": {
+        "type": "score",
+        "score": "Time",
+        "target": { "type": "fixed", "name": "#TotalTime" }
+    },
+    "range": {
+        "min": {
+            "type": "score",
+            "score": "Time",
+            "target": { "type": "fixed", "name": "#DayTimeBorder" }
+        }
+    }
+}
