@@ -1,0 +1,20 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "oak_sign",
+                    "functions": [
+                        { "function": "set_name", "name": "れポポ用看板" },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{BlockEntityTag: {front_text: {messages: ['{\"text\": \"\", \"clickEvent\": {\"action\": \"run_command\", \"value\": \"/function repopo:item/sign {id: YoutuberRepopo}\"}}', '\"\"', '\"YoutuberRepopo\"', '\"\"']}}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

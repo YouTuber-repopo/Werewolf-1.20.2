@@ -1,0 +1,18 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "arrow",
+                    "functions": [
+                        { "function": "reference", "name": "repopo:item_template" },
+                        { "function": "set_name", "name": "願ひの一矢" },
+                        { "function": "set_lore", "lore": ["こはき想ひに其は叶ふことならむ"] }
+                    ]
+                }
+            ]
+        }
+    ]
+}

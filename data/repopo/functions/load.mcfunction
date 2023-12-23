@@ -52,5 +52,9 @@
     bossbar set time style notched_12
 
 
+# npc設定
+    function repopo:npc/setting
+
+
 # りろーでっど！
     say りろーでっど！

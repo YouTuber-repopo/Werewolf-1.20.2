@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "carrot_on_a_stick",
+                    "functions": [
+                        { "function": "reference", "name": "repopo:item_template" },
+                        { "function": "set_name", "name": "預言者の心" },
+                        { "function": "set_lore", "lore": ["神からのお告げを。"] },
+                        { "function": "set_nbt", "tag": "{CustomModelData: 3}" }
+                    ]
+                }
+            ]
+        }
+    ]
+}

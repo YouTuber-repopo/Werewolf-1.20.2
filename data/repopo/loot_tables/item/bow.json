@@ -1,0 +1,20 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "bow",
+                    "functions": [
+                        { "function": "reference", "name": "repopo:item_template" },
+                        { "function": "set_name", "name": "怨念の強弓" },
+                        { "function": "set_lore", "lore": ["善も悪も一撃必殺"] },
+                        { "function": "set_damage", "damage": 0 },
+                        { "function": "set_enchantments", "enchantments": { "power": 64} }
+                    ]
+                }
+            ]
+        }
+    ]
+}
