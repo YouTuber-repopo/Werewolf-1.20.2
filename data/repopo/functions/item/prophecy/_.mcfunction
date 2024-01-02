@@ -4,6 +4,8 @@
 
 # アイテムクリア
 $execute unless entity @a[name="$(name)"] run return 0
+$execute if entity @a[name="$(name)", tag=Guest] run return 0
+$execute if entity @a[name="$(name)", tag=] run return 0
     clear @s heart_of_the_sea 1
 
 
