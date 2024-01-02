@@ -22,6 +22,10 @@
     execute as @a[scores={Death=1..}] run function repopo:system/death
 
 
+# 右クリ検知
+    execute as @a[scores={UseItem=1..}] at @s run function repopo:item/right_click
+    scoreboard players set @a UseItem 0
+
 # ゲームオーバー処理
     execute if entity @a[team=Wolf] unless entity @a[team=Villager] run function repopo:end/wolf_win_end
     execute if entity @a[team=Villager] unless entity @a[team=Wolf] run function repopo:end/villager_win_end

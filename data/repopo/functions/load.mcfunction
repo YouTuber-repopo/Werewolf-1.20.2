@@ -11,6 +11,7 @@
 
 #define objective Death 死亡スコアボード
 #define objective Time 時間
+#define objective UseItem アイテム右クリ検知
 
 #define score_holder #TotalTime 時間
 #define score_holder #DayTime 昼夜の時間
@@ -30,6 +31,7 @@
 # スコアボード定義
     scoreboard objectives add Death deathCount
     scoreboard objectives add Time dummy
+    scoreboard objectives add UseItem used:carrot_on_a_stick
 
 
 # 設定

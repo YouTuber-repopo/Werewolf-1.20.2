@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "carrot_on_a_stick",
+                    "functions": [
+                        { "function": "reference", "name": "repopo:item_template" },
+                        { "function": "set_name", "name": "遺灰" },
+                        { "function": "set_lore", "lore": ["死者の痕跡を辿って…"] },
+                        { "function": "set_nbt", "tag": "{CustomModelData: 8}" }
+                    ]
+                }
+            ]
+        }
+    ]
+}

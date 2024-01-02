@@ -25,6 +25,7 @@
     effect give @a saturation 10 255 true
 
     scoreboard players reset * Death
+    scoreboard players reset * UseItem
 
     execute store result score #DayTime Time run data get storage time_setting DayTime 1
     execute store result score #TotalTime Time run data get storage time_setting DayTime 2
