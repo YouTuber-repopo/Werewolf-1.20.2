@@ -27,6 +27,9 @@
     function repopo:system/team_setting_template {team: Mad}
     function repopo:system/team_setting_template {team: Guest}
 
+    team modify Guest nametagVisibility hideForOtherTeams
+    team modify Guest seeFriendlyInvisibles true
+
 
 # スコアボード定義
     scoreboard objectives add Death deathCount
