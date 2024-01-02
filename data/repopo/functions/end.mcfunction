@@ -30,6 +30,9 @@
     tag @a remove Mad
     tag @a remove Guest
 
+    tp @e[type=skeleton, tag=Enemy] ~ -256 ~
+    kill @e[type=skeleton, tag=Enemy]
+
 
 # 数秒後完全終了
     schedule function repopo:end/_ 5s
