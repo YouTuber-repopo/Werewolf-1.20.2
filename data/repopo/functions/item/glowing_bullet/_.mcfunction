@@ -10,7 +10,7 @@
 
 
 # 発光
-    effect give @a[tag=!GlowingBulletUser, team=!Guest] glowing 15 0 true
+    effect give @a[tag=!GlowingBulletUser, team=!Guest] glowing 30 0 true
 
 # 演出
     tellraw @a {"text": "発光!", "bold": true, "color": "gold"}

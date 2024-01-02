@@ -27,7 +27,7 @@
     function repopo:npc/item_setting_template { Tp: weapon_smith_setting, Pr: 2, Id: "arrow", Cn: 1, Nm: '"願ひの一矢"', Lr: '"こはき想ひに其は叶ふことならむ"', Ei: '""', El: 0, Cm: 0, Dm: 0 }
     function repopo:npc/item_setting_template { Tp: weapon_smith_setting, Pr: 4, Id: "stone_axe", Cn: 1, Nm: '"クリティカルアックス"', Lr: '"村人掃除の必需品"', Ei: "sharpness", El: 64, Cm: 0, Dm: 131 }
     function repopo:npc/item_setting_template { Tp: weapon_smith_setting, Pr: 5, Id: "wooden_sword", Cn: 1, Nm: '"木刀"', Lr: '"先祖代々受け継がれた伝家の宝刀"', Ei: '""', El: 0, Cm: 0, Dm: 30 }
-    function repopo:npc/item_setting_template { Tp: weapon_smith_setting, Pr: 7, Id: "carrot_on_a_stick", Cn: 1, Nm: '"発光弾"', Lr: '"そこに浮かび上がる何者かのシルエット"', Ei: '""', El: 0, Cm: 7, Dm: 0 }
+    function repopo:npc/item_setting_template { Tp: weapon_smith_setting, Pr: 8, Id: "carrot_on_a_stick", Cn: 1, Nm: '"発光弾"', Lr: '"そこに浮かび上がる何者かのシルエット"', Ei: '""', El: 0, Cm: 7, Dm: 0 }
 
 
 # 道具鍛冶設定
