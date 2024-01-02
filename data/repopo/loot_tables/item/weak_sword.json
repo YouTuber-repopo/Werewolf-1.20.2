@@ -1,0 +1,19 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "wooden_sword",
+                    "functions": [
+                        { "function": "reference", "name": "repopo:item_template" },
+                        { "function": "set_name", "name": "木刀" },
+                        { "function": "set_lore", "lore": ["先祖代々受け継がれた伝家の宝刀"] },
+                        { "function": "set_damage", "damage": 0.5 }
+                    ]
+                }
+            ]
+        }
+    ]
+}
