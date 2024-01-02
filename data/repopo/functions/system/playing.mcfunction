@@ -13,9 +13,9 @@
 
 
 # 役職表示
-    execute as @a[team=Wolf] run function repopo:system/actionbar_template {Team: '"人狼"', TeamColor: '"dark_red"'}
-    execute as @a[team=Villager] run function repopo:system/actionbar_template {Team: '"村人"', TeamColor: '"green"'}
-    execute as @a[team=Mad] run function repopo:system/actionbar_template {Team: '"狂人"', TeamColor: '"dark_red"'}
+    execute as @a[tag=Wolf] run function repopo:system/actionbar_template {Team: '"人狼"', TeamColor: '"dark_red"'}
+    execute as @a[tag=Villager] run function repopo:system/actionbar_template {Team: '"村人"', TeamColor: '"green"'}
+    execute as @a[tag=Mad] run function repopo:system/actionbar_template {Team: '"狂人"', TeamColor: '"dark_red"'}
 
 
 # プレイヤー死亡処理
