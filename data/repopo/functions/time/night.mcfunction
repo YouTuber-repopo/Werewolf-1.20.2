@@ -13,6 +13,9 @@
     bossbar set time name [{"score": {"objective": "Time", "name": "#Day"}}, "日目 夜"]
 
 
+# 騎士の加護
+    effect give @a[tag=ProtectedPerson] resistance infinite 255 true
+
 # 演出
     title @a title {"text": "NIGHT TIME", "bold": true, "color": "dark_blue"}
     title @a subtitle "ミュートしてください"

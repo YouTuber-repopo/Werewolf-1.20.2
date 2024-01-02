@@ -21,6 +21,11 @@
     kill @e[type=skeleton, tag=Enemy]
 
 
+# 騎士の加護消滅
+    effect clear @a[tag=ProtectedPerson] resistance
+    tag @a remove ProtectedPerson
+
+
 # 演出
     title @a title {"text": "DAY TIME", "bold": true, "color": "yellow"}
     title @a subtitle "会話が解禁されます"

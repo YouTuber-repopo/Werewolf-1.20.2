@@ -11,3 +11,5 @@
 
 # 占い
 $execute if entity @s[nbt={SelectedItem: {id: "minecraft:heart_of_the_sea"}}] run function repopo:item/prophecy/_ {name: $(id)}
+# 騎士の加護
+$execute if entity @s[nbt={SelectedItem: {id: "minecraft:leather_horse_armor"}}, name=!"$(id)"] run function repopo:item/knight_protect/_ {name: $(id)}

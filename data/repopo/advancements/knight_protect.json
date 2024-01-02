@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "player_gets_hurt": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": { "nbt": "{Tags: [ProtectedPerson]}" }
+                    },
+                    { "condition": "reference", "name": "repopo:time/night" }
+                ],
+                "damage": { "source_entity": { "type": "player" } }
+            }
+        }
+    },
+    "rewards": { "function": "repopo:item/knight_protect/protect" }
+}

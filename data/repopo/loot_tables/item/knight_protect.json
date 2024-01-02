@@ -1,0 +1,18 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "leather_horse_armor",
+                    "functions": [
+                        { "function": "reference", "name": "repopo:item_template" },
+                        { "function": "set_name", "name": "騎士の加護" },
+                        { "function": "set_lore", "lore": ["命を懸けてお守りいたします。"] }
+                    ]
+                }
+            ]
+        }
+    ]
+}
