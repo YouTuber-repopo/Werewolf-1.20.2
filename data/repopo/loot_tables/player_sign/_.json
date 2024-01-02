@@ -1,10 +1,12 @@
 {
     "pools": [
         { "rolls": 1, "entries": [{ "type": "loot_table", "name": "repopo:player_sign/f" }] },
+        { "rolls": 1, "entries": [{ "type": "loot_table", "name": "repopo:player_sign/fy" }] },
         { "rolls": 1, "entries": [{ "type": "loot_table", "name": "repopo:player_sign/neko" }] },
         { "rolls": 1, "entries": [{ "type": "loot_table", "name": "repopo:player_sign/repopo" }] },
         { "rolls": 1, "entries": [{ "type": "loot_table", "name": "repopo:player_sign/ringo" }] },
         { "rolls": 1, "entries": [{ "type": "loot_table", "name": "repopo:player_sign/sakuya" }] },
-        { "rolls": 1, "entries": [{ "type": "loot_table", "name": "repopo:player_sign/same" }] }
+        { "rolls": 1, "entries": [{ "type": "loot_table", "name": "repopo:player_sign/same" }] },
+        { "rolls": 1, "entries": [{ "type": "loot_table", "name": "repopo:player_sign/tjo" }] }
     ]
 }
