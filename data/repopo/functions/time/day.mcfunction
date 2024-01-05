@@ -17,8 +17,7 @@
 
 
 # スケルトン消滅
-    tp @e[type=skeleton, tag=Enemy] ~ -256 ~
-    kill @e[type=skeleton, tag=Enemy]
+    function repopo:enemy/skeleton_gone
 
 
 # 騎士の加護消滅
