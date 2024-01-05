@@ -1,0 +1,12 @@
+{
+    "pools": [
+        { "rolls": 1, "entries": [{"type": "item", "name": "player_head", "functions": [{"function": "set_nbt", "tag": "{SkullOwner:hsakfchan}"}]}] },
+        { "rolls": 1, "entries": [{"type": "item", "name": "player_head", "functions": [{"function": "set_nbt", "tag": "{SkullOwner:NOOB50434}"}]}] },
+        { "rolls": 1, "entries": [{"type": "item", "name": "player_head", "functions": [{"function": "set_nbt", "tag": "{SkullOwner:nyankoman25_gou}"}]}] },
+        { "rolls": 1, "entries": [{"type": "item", "name": "player_head", "functions": [{"function": "set_nbt", "tag": "{SkullOwner:YoutuberRepopo}"}]}] },
+        { "rolls": 1, "entries": [{"type": "item", "name": "player_head", "functions": [{"function": "set_nbt", "tag": "{SkullOwner:Ringo1369}"}]}] },
+        { "rolls": 1, "entries": [{"type": "item", "name": "player_head", "functions": [{"function": "set_nbt", "tag": "{SkullOwner:akatuki007}"}]}] },
+        { "rolls": 1, "entries": [{"type": "item", "name": "player_head", "functions": [{"function": "set_nbt", "tag": "{SkullOwner:same_minecraft}"}]}] },
+        { "rolls": 1, "entries": [{"type": "item", "name": "player_head", "functions": [{"function": "set_nbt", "tag": "{SkullOwner:Tjo0207vp}"}]}] }
+    ]
+}
