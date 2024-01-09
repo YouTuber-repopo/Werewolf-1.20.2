@@ -22,6 +22,10 @@
     execute as @a[scores={Death=1..}] at @s run function repopo:system/death
 
 
+# アイテム制限
+    clear @a[team=!Wolf] stone_axe
+
+
 # 右クリ検知
     execute as @a[scores={UseItem=1..}] at @s run function repopo:item/right_click
     scoreboard players set @a UseItem 0
