@@ -8,6 +8,7 @@
 
 #define storage system システムに関するもの
 #define storage time_setting 時間設定
+#define storage enemy_spawn_place 敵がスポーンする位置
 
 #define objective Death 死亡スコアボード
 #define objective Time 時間
@@ -40,6 +41,7 @@
 # 設定
     data merge storage system {IsPlaying: false}
     data merge storage time_setting {DayTime: 1800}
+    data merge storage enemy_spawn_place {Church: false, Castel: false, Hotel: true}
 
     execute store result score #TotalTime Time run data get storage time_setting DayTime 2
     execute store result score #DayTime Time run data get storage time_setting DayTime 1

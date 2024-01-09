@@ -5,6 +5,7 @@
 # キル
     kill @e[tag=ChurchEnemyMarker]
     kill @e[tag=CastelEnemyMarker]
+    kill @e[tag=HotelEnemyMarker]
 
 
 ##教会
@@ -46,3 +47,27 @@
         summon marker -7 -57 66 {Tags: ["CastelEnemyMarker"]}
 
 
+## ホテル
+    # ロビー
+        summon marker 1004 1 9 {Tags: ["HotelEnemyMarker"]}
+        summon marker 1025 2 4 {Tags: ["HotelEnemyMarker"]}
+        summon marker 1004 7 -6 {Tags: ["HotelEnemyMarker"]}
+        summon marker 1004 7 14 {Tags: ["HotelEnemyMarker"]}
+    
+    # 1階
+        summon marker 1002 14 4 {Tags: ["HotelEnemyMarker"]}
+        summon marker 1026 14 4 {Tags: ["HotelEnemyMarker"]}
+    
+    # 2階
+        summon marker 1002 23 4 {Tags: ["HotelEnemyMarker"]}
+        summon marker 1026 23 4 {Tags: ["HotelEnemyMarker"]}
+        summon marker 1003 23.5 -5 {Tags: ["HotelEnemyMarker"]}
+        summon marker 1027 23.5 13 {Tags: ["HotelEnemyMarker"]}
+    
+    # 3階
+        summon marker 1002 32 4 {Tags: ["HotelEnemyMarker"]}
+        summon marker 1026 32 4 {Tags: ["HotelEnemyMarker"]}
+        summon marker 1003 32.5 -5 {Tags: ["HotelEnemyMarker"]}
+        summon marker 1027 32.5 13 {Tags: ["HotelEnemyMarker"]}
+        summon marker 998 32 9 {Tags: ["HotelEnemyMarker"]}
+        summon marker 1034 32 -1 {Tags: ["HotelEnemyMarker"]}
