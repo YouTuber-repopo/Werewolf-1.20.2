@@ -19,7 +19,7 @@
 
 
 # プレイヤー死亡処理
-    execute as @a[scores={Death=1..}] run function repopo:system/death
+    execute as @a[scores={Death=1..}] at @s run function repopo:system/death
 
 
 # 右クリ検知
